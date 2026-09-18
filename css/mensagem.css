@@ -1,0 +1,44 @@
+/* Estilos das páginas de mensagem: obrigado.php e esgotado.php */
+
+body {
+  background: rgb(23, 23, 28);
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #cccccc;
+  margin-bottom: 2rem;
+}
+
+/* Título em vermelho na página de produto esgotado */
+body.esgotado h1 {
+  color: #f87171;
+}
+
+.btn {
+  display: inline-block;
+  background: #8b5cf6;
+  color: white;
+  padding: 0.9rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a78bfa;
+}
